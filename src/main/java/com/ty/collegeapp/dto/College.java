@@ -1,4 +1,4 @@
-package com.ty.collageapp.dto;
+package com.ty.collegeapp.dto;
 
 import java.util.List;
 
@@ -16,7 +16,7 @@ import lombok.Setter;
 @Entity
 @Setter
 @Getter
-public class Collage {
+public class College {
 
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
@@ -26,7 +26,7 @@ public class Collage {
 	private String email;
 	private String address;
 
-	@OneToMany(mappedBy = "collage")
+	@OneToMany(mappedBy = "college")
 	@JsonIgnore
 	private List<Branch> branch;
 }

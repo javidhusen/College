@@ -1,4 +1,4 @@
-package com.ty.collageapp.dto;
+package com.ty.collegeapp.dto;
 
 import lombok.AllArgsConstructor;
 import lombok.Getter;

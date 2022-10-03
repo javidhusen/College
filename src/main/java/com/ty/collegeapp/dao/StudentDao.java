@@ -1,4 +1,4 @@
-package com.ty.collageapp.dao;
+package com.ty.collegeapp.dao;
 
 import java.util.List;
 import java.util.Optional;
@@ -6,8 +6,8 @@ import java.util.Optional;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Repository;
 
-import com.ty.collageapp.dto.Student;
-import com.ty.collageapp.repository.StudentRepository;
+import com.ty.collegeapp.dto.Student;
+import com.ty.collegeapp.repository.StudentRepository;
 
 @Repository
 public class StudentDao {

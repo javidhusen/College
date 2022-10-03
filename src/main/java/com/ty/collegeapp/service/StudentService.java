@@ -1,4 +1,4 @@
-package com.ty.collageapp.service;
+package com.ty.collegeapp.service;
 
 import java.util.List;
 
@@ -7,9 +7,9 @@ import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Service;
 
-import com.ty.collageapp.dao.StudentDao;
-import com.ty.collageapp.dto.ResponseStructure;
-import com.ty.collageapp.dto.Student;
+import com.ty.collegeapp.dao.StudentDao;
+import com.ty.collegeapp.dto.ResponseStructure;
+import com.ty.collegeapp.dto.Student;
 
 @Service
 public class StudentService {

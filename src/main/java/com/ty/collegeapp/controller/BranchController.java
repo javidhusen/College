@@ -1,4 +1,4 @@
-package com.ty.collageapp.controller;
+package com.ty.collegeapp.controller;
 
 import java.util.List;
 
@@ -14,9 +14,9 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.ty.collageapp.dto.Branch;
-import com.ty.collageapp.dto.ResponseStructure;
-import com.ty.collageapp.service.BranchService;
+import com.ty.collegeapp.dto.Branch;
+import com.ty.collegeapp.dto.ResponseStructure;
+import com.ty.collegeapp.service.BranchService;
 
 import io.swagger.annotations.ApiOperation;
 import io.swagger.annotations.ApiResponse;

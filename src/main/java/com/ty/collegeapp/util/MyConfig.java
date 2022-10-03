@@ -1,4 +1,4 @@
-package com.ty.collageapp.util;
+package com.ty.collegeapp.util;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -27,12 +27,12 @@ public class MyConfig {
 		@SuppressWarnings("rawtypes")
 		List<VendorExtension> vendorExtensions = new ArrayList<>();
 
-		ApiInfo apiInfo = new ApiInfo("Collage-app Provides collage management service",
-				"This has a list of information about the Collage_app", "1.0",
+		ApiInfo apiInfo = new ApiInfo("College-app Provides College management service",
+				"This has a list of information about the collage app", "1.0",
 				"https://testyantraglobal.com/services/software-development/", contact, "Apache 2.0",
 				"https://testyantraglobal.com/services/software-development/", vendorExtensions);
 		return new Docket(DocumentationType.SWAGGER_2).select()
-				.apis(RequestHandlerSelectors.basePackage("com.ty.collageapp")).build().apiInfo(apiInfo)
+				.apis(RequestHandlerSelectors.basePackage("com.ty.collegeapp")).build().apiInfo(apiInfo)
 				.useDefaultResponseMessages(false);
 	}
 }
